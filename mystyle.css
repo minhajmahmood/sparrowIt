@@ -1,0 +1,201 @@
+.{
+    padding: 0%;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+/* Hero Section */
+/* Navbar */
+.nav-bar nav {
+    right : 30px;
+}
+
+
+
+/* Hero Background */
+.bg-img {
+   background-image: url(img/hero-background.jpg);
+   height: 100vh;
+  
+}
+
+
+
+.hero-text {
+    color: antiquewhite;
+    position: absolute;
+    padding-top: 200px;
+    left: 30px;
+}
+
+.wd-hero-img {
+    position: absolute;
+    left: 820px;
+}
+
+/* Service Setion */
+.service-bg-img {
+    background-image: url(img/service-background.jpg);
+    height: 100vh;
+}
+.about-text {
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* .card-1 .card-2 .card-3 {
+    position: absolute;
+    display:inline
+} */
+
+
+.card-body {
+    -webkit-box-shadow: 10px 21px 58px 0px rgba(242,228,235,1);
+-moz-box-shadow: 10px 21px 58px 0px rgba(242,228,235,1);
+box-shadow: 10px 21px 58px 0px rgba(242,228,235,1);
+
+border-radius: 64px 10px 94px 0px;
+-moz-border-radius: 64px 10px 94px 0px;
+-webkit-border-radius: 64px 10px 94px 0px;
+border: 0px outset #000000;
+}
+
+
+
+.c1  {
+    height: 100px;
+    width: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: bold;
+    position: absolute;
+   
+}
+.c2  {
+    height: 100px;
+    width: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: bold;
+    position: absolute;
+    
+    
+}
+.c3  {
+    height: 100px;
+    width: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: bold;
+    position: absolute;
+    
+}
+
+.c1:hover{
+    background-color: aliceblue;
+    border:white solid 10px;
+    border-radius: 50%;
+
+}
+
+.c2:hover{
+    background-color: aliceblue;
+    border: #000000;
+    border-radius: 50%;
+
+}
+.c3:hover{
+    background-color: aliceblue;
+    border: #000000;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+/* Portfolio Section */
+
+.portfolio_heading {
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.portfolio-section {
+    background-image: url(img/portfolio_background.jpg);
+    height: 100vh;
+}
+
+
+.portfolio-img-heading {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+.card-img-top {
+    /* display: block; */
+    /* width: 50px;
+    height: 200px; */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(204, 199, 199, 0.808);
+  }
+  
+  .portfolio-items:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  /* Client Say About Us */
+
+  .testimonial-bg-img {
+    background-image: url(img/testimonitial-background.jpg);
+    color: antiquewhite;
+  }
+
+
+
+  /* Footer-Section */
+
+  .footer-copyright {
+    background-image: url(img/portfolio_background.jpg);
+    color: black;
+  }
